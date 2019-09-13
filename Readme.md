@@ -2,8 +2,7 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This repository contains the conan receipe that is used to build the boost packages at
-[rgpaul bintray](https://bintray.com/manromen/rgpaul).
+This repository contains the conan receipe that is used to build the boost packages at appcom.
 
 For Infos about Boost please visit [www.boost.org](https://www.boost.org/).  
 The library is licensed under the [Boost Software License](https://www.boost.org/users/license.html).  

@@ -73,7 +73,7 @@ function ExtractZipArchive($arch, $build_type)
 
 function CreateConanPackage($arch, $build_type, $runtime)
 {
-    & conan export-pkg . boost/${LIBRARY_VERSION}@rgpaul/stable -s os=Windows `
+    & conan export-pkg . boost/${LIBRARY_VERSION}@appcom/stable -s os=Windows `
         -s compiler="Visual Studio" `
         -s compiler.runtime=$runtime `
         -s compiler.version=$VS_VERSION `
@@ -86,7 +86,7 @@ function CreateConanPackage($arch, $build_type, $runtime)
 
 function UploadConanPackages()
 {
-    & conan upload boost/${LIBRARY_VERSION}@rgpaul/stable -r rgpaul --all
+    & conan upload boost/${LIBRARY_VERSION}@appcom/stable -r appcom-oss --all
 }
 
 #=======================================================================================================================

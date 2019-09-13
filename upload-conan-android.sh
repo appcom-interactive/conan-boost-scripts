@@ -25,9 +25,9 @@
 
 declare LIBRARY_VERSION=1.70.0
 
-declare CONAN_USER=rgpaul
+declare CONAN_USER=appcom
 declare CONAN_CHANNEL=stable
-declare CONAN_REPOSITORY=rgpaul
+declare CONAN_REPOSITORY=appcom-oss
 
 # declare all precompiled ndks
 declare ANDROID_NDKS=(
